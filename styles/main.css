@@ -100,6 +100,23 @@ footer h1 {
     letter-spacing: 3em;
     line-height: 2em;
 }
+
+/* tablet and mobile view */
+@media screen and (max-width: 760px) {
+    #content {
+        flex-direction: column;
+        padding: 4em 1em;
+    }
+    
+    #content >:last-child {
+        margin-top: 2em;
+    }
+    
+    .description {
+        padding: 0;
+    }
+}
+
 /* mobile view */
 @media screen and (max-width: 475px) {
     #header-section >:first-child {
@@ -122,19 +139,6 @@ footer h1 {
     
     button.callToAction {
         font-size: 1.2em;
-    }
-
-    #content {
-        flex-direction: column;
-        padding: 4em 1em;
-    }
-
-    #content >:last-child {
-        margin-top: 2em;
-    }
-
-    .description {
-        padding: 0;
     }
 
     footer h1 {
