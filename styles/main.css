@@ -92,6 +92,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 0 1em;
 }
 
 footer h1 {
@@ -114,6 +115,10 @@ footer h1 {
     
     .description {
         padding: 0;
+    }
+
+    footer h1 {
+        letter-spacing: 1em;
     }
 }
 
@@ -139,9 +144,5 @@ footer h1 {
     
     button.callToAction {
         font-size: 1.2em;
-    }
-
-    footer h1 {
-        font-size: .8em;
     }
 }
