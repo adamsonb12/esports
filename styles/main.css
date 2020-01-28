@@ -58,20 +58,18 @@ button.callToAction {
     border-radius: 3px;
 }
 
-#mission {
+#content {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 12em 4em;
 }
 
 .description {
-    padding: 0 25%;
-    text-align: center;
+    text-align: left;
     line-height: 2em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    padding: 0 1em;
 }
 
 #typeform {
@@ -82,30 +80,8 @@ button.callToAction {
     border-bottom: solid thin #eee;
 }
 
-.imageDivider {
-    display: flex;
-    height: 8em;
-}
-
-.divider1 {
-    background: center no-repeat url("https://images.unsplash.com/photo-1520092352425-9699926a9b0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
-    background-size: cover;
-}
-
-.divider2 {
-    background: center no-repeat url("https://images.unsplash.com/photo-1516741247836-f66dfdfd1b22?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1198&q=80");
-    background-size: cover;
-}
-
-#social-media {
-    padding: 2em 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.sectionSpacing {
-    padding: 4.166em 0;
+#typeform >:first-child {
+    padding-bottom: 4em;
 }
 
 footer {
@@ -148,8 +124,17 @@ footer h1 {
         font-size: 1.2em;
     }
 
+    #content {
+        flex-direction: column;
+        padding: 4em 1em;
+    }
+
+    #content >:last-child {
+        margin-top: 2em;
+    }
+
     .description {
-        padding: 0 2em;
+        padding: 0;
     }
 
     footer h1 {
