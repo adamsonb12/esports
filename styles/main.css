@@ -72,6 +72,15 @@ button.callToAction {
     padding: 0 1em;
 }
 
+.description a {
+    text-decoration: none;
+    color: #40ccd0;
+}
+
+.description a:hover {
+    font-weight: bold;
+}
+
 #typeform {
     display: flex;
     flex-direction: column;
